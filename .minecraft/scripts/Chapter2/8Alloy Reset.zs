@@ -29,8 +29,8 @@ mods.embers.Stamper.remove(<embers:plate_tin>);
 
 mods.embers.Mixer.remove(<liquid:oil_dwarf>);
 mods.embers.Mixer.remove(<liquid:dawnstone>);
-mods.embers.Mixer.remove(<liquid:electrum>);
-mods.embers.Mixer.remove(<liquid:bronze>);
+//mods.embers.Mixer.remove(<liquid:electrum>);
+//mods.embers.Mixer.remove(<liquid:bronze>);
 
 mods.embers.Melter.remove(<liquid:iron>);
 mods.embers.Melter.remove(<liquid:gold>);
