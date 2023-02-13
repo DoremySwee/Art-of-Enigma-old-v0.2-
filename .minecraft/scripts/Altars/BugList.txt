@@ -1,0 +1,9 @@
+/*
+1. For zenClass[], + is undefined. But for [zenClass], + is defined.
+2. When using any variable as subscripts for [zenClass] in member function, OutOfBoundException0 occurs when compiling.
+3. When assiginiing a static array variable of a zenClass in a member function, like p=[] as [zenClass], Runtime error takes place and gives byte code with implicit reasons. 
+   However, outside the member definition, the assignment can be properly done.
+//4. function variables in zenClass behaves like static, but they get overwritten even before they are called for the first time.
+5. In zenClass, static variables sometimes cannot be assigned in "if". Error: OutOfBoundException0.
+6. += does not work on elements of zenClass Static Array Variables.
+*/
